@@ -15,18 +15,18 @@ int main() {
         printf("O Bispo movimentou %d casas para Cima, para direita! \n", b);
        b++;
     }
-
+         printf("\n");
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
     for (int t = 1; t < 6; t++) {
-        printf("\n A Torre movimentou %d casa para direita!\n", t); //Imprimindo a direção do movimento
+        printf("A Torre movimentou %d casa para direita!\n", t); //Imprimindo a direção do movimento
     }
-
+        printf("\n");
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     int r = 1;
         do{
-            printf("\n A rainha movimentou %d casa para a esquerda!\n", r);
+            printf("A rainha movimentou %d casa para a esquerda!\n", r);
             r++;
         } while (r < 9);
         
@@ -34,7 +34,26 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+        
+        int(Movimentoeml) = 1;
+            
+            while(Movimentoeml--);
+            {
+                for(int c = 1 ; c < 3; c++){
+                    printf("\nO cavalo andou %d casa para Cima ", c);
+                }
+                Movimentoeml = 1;
+                printf("e %d para a Direita!\n", Movimentoeml);
+            }
+    
+            printf("Jogo de Xadrez");
+            printf("Escolha uma peça para se mover!");
+            printf("b. Bispo");
+            printf("t, Torre");
+            printf("R. Rainha");
+            
 
+    
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
     // Exemplo: Crie uma função recursiva para o movimento do Bispo.
