@@ -9,7 +9,7 @@
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
     
-    void moverBispo(int casa){
+    void moverBispo(int casa){ 
         if (casa > 0){
         printf("Direita, cima\n");
         moverBispo (casa - 1);        
